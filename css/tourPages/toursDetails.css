@@ -1,0 +1,166 @@
+.detailLocations {
+  max-width: 981px;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+.detailLocations .locationHero {
+  width: 100%;
+  height: 413px;
+  position: relative;
+  margin-bottom: 40px;
+  color: white;
+}
+.detailLocations .locationHero .israelTourHero {
+  width: 100%;
+  height: 413px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-01-wide.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-01-wide.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.detailLocations .locationHero .usaTourHero {
+  width: 100%;
+  height: 413px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-02.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.detailLocations .locationHero .australiaTourHero {
+  width: 100%;
+  height: 413px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-03.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.detailLocations .locationHero .newZealandTourHero {
+  width: 100%;
+  height: 413px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-04.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-04.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.detailLocations .locationHero .franceTourHero {
+  width: 100%;
+  height: 413px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-05.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-05.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.detailLocations .locationHero .egyptTourHero {
+  width: 100%;
+  height: 413px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-06.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-06.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.detailLocations .locationHero .japanTourHero {
+  width: 100%;
+  height: 413px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-07.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-07.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.detailLocations .locationHero .canadaTourHero {
+  width: 100%;
+  height: 413px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-08.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-08.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.detailLocations .locationHero .uaeTourHero {
+  width: 100%;
+  height: 413px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tour-09.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour-09.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.detailLocations .locationHero h1 {
+  font-size: 80px;
+  font-family: ProximaCondensed;
+  position: absolute;
+  left: 30px;
+  top: 18px;
+}
+.detailLocations .locationHero .startPrice {
+  font-size: 30px;
+  font-family: ProximaCondensed;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+.detailLocations .locationImages {
+  width: 978px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.detailLocations .locationImages img {
+  width: 298px;
+  height: 347px;
+  margin-bottom: 29px;
+}
+.detailLocations .daySummary {
+  margin-bottom: 70px;
+}
+.detailLocations .daySummary h1 {
+  width: 200px;
+  border-bottom: solid 1px black;
+  font-size: 60px;
+  font-family: ProximaCondensed;
+  margin-bottom: 38px;
+}
+.detailLocations .daySummary p {
+  font-size: 16px;
+  font-family: GillSans;
+}
+.detailLocations .bookNow {
+  width: 133px;
+  height: 40px;
+  padding: 10px 15px;
+  background-color: #79addc;
+  border-radius: 20px;
+  font-size: 15px;
+  font-family: GillSans;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 830px) {
+  .locationImages {
+    max-width: 638px;
+  }
+
+  .daySummary {
+    margin: 0 20px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .locationImages {
+    max-width: 298px;
+  }
+}

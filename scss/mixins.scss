@@ -1,0 +1,7 @@
+@mixin site-button($radius: 20px) {
+  background: #79addc;
+  border-radius: $radius;
+  color: white;
+  padding: 11px 21px;
+  border: none;
+}

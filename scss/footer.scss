@@ -1,0 +1,23 @@
+footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #79addc;
+
+  .footerLogo {
+  }
+
+  .copyright {
+    color: white;
+  }
+
+  .social_media {
+    color: white;
+    img {
+      width: 22px;
+    }
+    // background-color: silver;
+  }
+}

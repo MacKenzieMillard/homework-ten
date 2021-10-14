@@ -1,0 +1,95 @@
+.about {
+  width: 100%;
+  height: 1000px;
+  // background-color: blueviolet;
+  padding-top: 15%;
+
+  .aboutPara {
+    margin: 0 auto;
+    width: 75%;
+    height: 33%;
+    margin-bottom: 1%;
+
+    h1 {
+      width: 150px;
+      font-size: 60px;
+      font-family: ProximaCondensed;
+      border-bottom: solid 2px black;
+    }
+    p {
+      font-size: 16px;
+      font-family: GillSans;
+    }
+  }
+
+  .client-quotes {
+    margin: 0 auto;
+    width: 75%;
+    height: 66%;
+
+    .quotes {
+      width: 100%;
+
+      h1 {
+        width: 200px;
+        font-size: 40px;
+        font-family: ProximaCondensed;
+        border-bottom: solid 2px black;
+      }
+
+      .clients {
+        position: relative;
+        max-width: 722px;
+        min-height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        //   background-color: forestgreen;
+        margin: 20px 0;
+
+        .personImage {
+          width: 250px;
+          height: 150px;
+
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+
+        .aboutClient {
+          width: 385px;
+          height: 102px;
+
+          p {
+            font-size: 16px;
+            font-family: GillSans;
+          }
+        }
+
+        .author {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          color: #79addc;
+          font-size: 20px;
+          font-family: ProximaCondensed;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .client-quotes {
+    margin-top: 50px;
+
+    .clients {
+      flex-direction: column;
+
+      .personImage {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}

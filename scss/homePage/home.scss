@@ -1,0 +1,396 @@
+.home {
+  .hero {
+    max-width: 1280px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+
+    .callout {
+      width: 100%;
+      height: 100%;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        font-size: 60px;
+        font-family: ProximaCondensed;
+      }
+
+      p {
+        width: 714px;
+        text-align: center;
+        font-size: 20px;
+        font-family: GillSans;
+      }
+
+      .read-more {
+        width: 121px;
+        padding: 5px 15px;
+        margin-top: 40px;
+        background-color: #79addc;
+        font-size: 15px;
+        font-family: GillSans;
+        color: white;
+      }
+    }
+  }
+
+  .promoTrips {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: -50px;
+    min-height: 304px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // background-color: yellow;
+
+    .israelTour {
+      width: 236px;
+      height: 304px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/tour-01.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+
+      h1 {
+        text-align: center;
+        font-size: 60px;
+        font-family: ProximaCondensed;
+      }
+      p {
+        text-align: center;
+        font-size: 30px;
+        font-family: ProximaCondensed;
+      }
+    }
+
+    .usaTour {
+      width: 236px;
+      height: 304px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/tour-02.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+
+      h1 {
+        text-align: center;
+        font-size: 60px;
+        font-family: ProximaCondensed;
+      }
+      p {
+        text-align: center;
+        font-size: 30px;
+        font-family: ProximaCondensed;
+      }
+    }
+
+    .austrailiaTour {
+      width: 236px;
+      height: 304px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/tour-03.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+
+      h1 {
+        text-align: center;
+        font-size: 60px;
+        font-family: ProximaCondensed;
+      }
+      p {
+        text-align: center;
+        font-size: 30px;
+        font-family: ProximaCondensed;
+      }
+    }
+
+    .learnMore {
+      width: 121px;
+      padding: 5px 15px;
+      margin-top: 40px;
+      background-color: #79addc;
+      font-size: 15px;
+      font-family: GillSans;
+      color: white;
+      border-radius: 27px;
+    }
+  }
+
+  .bookingForm {
+    width: 75%;
+    min-height: 400px;
+    padding: 50px;
+    // background-color: teal;
+    margin: 0 auto;
+
+    .booking-wrapper {
+      // background-color: tomato;
+
+      h1 {
+        font-size: 60px;
+        font-family: ProximaCondensed;
+      }
+
+      form {
+        width: 100%;
+        // background-color: thistle;
+        .textInputs {
+          width: 100%;
+
+          .firstFour {
+            width: 100%;
+            height: 100%;
+            // background-color: thistle;
+
+            .topTwo {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              input {
+                width: 415px;
+                height: 58px;
+                font-size: 18px;
+                font-family: GillSans;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                border-color: #79addc;
+              }
+            }
+
+            .bottomTwo {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              input {
+                width: 415px;
+                height: 58px;
+                font-size: 18px;
+                font-family: GillSans;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                border-color: #79addc;
+              }
+            }
+          }
+
+          .check {
+            font-size: 18px;
+            font-family: GillSans;
+
+            .checkIn {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              label {
+                width: 110px;
+                height: 25px;
+                margin-right: 25px;
+              }
+              input {
+                width: 700px;
+                height: 58px;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                border-color: #79addc;
+              }
+            }
+            .checkOut {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              label {
+                width: 110px;
+                margin-right: 25px;
+              }
+              input {
+                width: 700px;
+                height: 58px;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                border-color: #79addc;
+              }
+            }
+          }
+
+          .numbers {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // background-color: skyblue;
+
+            .adult {
+              width: 30%;
+              font-size: 18px;
+              font-family: GillSans;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              // background-color: springgreen;
+
+              label {
+              }
+
+              input {
+                width: 100px;
+                height: 58px;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                border-color: #79addc;
+              }
+            }
+
+            .children {
+              width: 30%;
+              font-size: 18px;
+              font-family: GillSans;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              label {
+              }
+
+              input {
+                width: 100px;
+                height: 58px;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                border-color: #79addc;
+              }
+            }
+
+            .rooms {
+              width: 30%;
+              font-size: 18px;
+              font-family: GillSans;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+              label {
+              }
+
+              input {
+                width: 100px;
+                height: 58px;
+                margin-bottom: 20px;
+                padding-left: 20px;
+                border-color: #79addc;
+              }
+            }
+          }
+
+          .comments {
+            width: 100%;
+            font-size: 18px;
+            font-family: GillSans;
+
+            input {
+              width: 100%;
+              height: 200px;
+              margin-bottom: 20px;
+              padding-left: 20px;
+              border-color: #79addc;
+            }
+          }
+        }
+
+        .subBtn {
+          width: 100%;
+          .booking-submit {
+            height: 60px;
+            width: 100%;
+            color: white;
+            background-color: #79addc;
+            border-radius: 50px;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .promoTrips {
+    flex-direction: column;
+  }
+
+  .bookingForm {
+    .booking-wrapper {
+      form {
+        .textInputs {
+          .firstFour {
+            .topTwo {
+              flex-direction: column;
+            }
+            .bottomTwo {
+              flex-direction: column;
+            }
+          }
+          .check {
+            flex-direction: column;
+          }
+          .numbers {
+            flex-direction: column;
+          }
+          .comments {
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}

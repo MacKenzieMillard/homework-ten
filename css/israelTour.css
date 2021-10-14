@@ -1,0 +1,14 @@
+.detailLocations {
+  max-width: 1280px;
+}
+.detailLocations .locationImages img {
+  width: 298px;
+  height: 347px;
+}
+.detailLocations .bookNow {
+  padding: 5px 30px;
+  background-color: #79addc;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: GillSans;
+}

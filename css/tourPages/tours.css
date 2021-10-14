@@ -1,0 +1,102 @@
+.tours-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+.tours-container .toursHero {
+  max-width: 981px;
+  height: 200px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/tours-header.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tours-header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.tours-container .toursHero h1 {
+  font-size: 60px;
+  font-family: ProximaCondensed;
+}
+.tours-container .tourLocations {
+  width: 818px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+.tours-container .tourLocations .tourReusable {
+  width: 236px;
+  height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  margin-bottom: 55px;
+  position: relative;
+}
+.tours-container .tourLocations .tourReusable h1 {
+  font-size: 60px;
+  font-family: ProximaCondensed;
+}
+.tours-container .tourLocations .tourReusable .tourPrice {
+  font-size: 30px;
+  font-family: ProximaCondensed;
+  margin-bottom: 55px;
+}
+.tours-container .tourLocations .tourReusable .learnMore {
+  padding: 5px 30px;
+  background-color: #79addc;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: GillSans;
+  text-decoration: none;
+}
+.tours-container .tourLocations .tourReusable .backgroundImgTour {
+  position: absolute;
+  z-index: -1;
+}
+.tours-container .tourLocations .tourReusable .backgroundImgTour img {
+  width: 236px;
+  height: 304px;
+}
+
+@media only screen and (max-width: 830px) {
+  .tourLocations {
+    max-width: 527px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .tourLocations {
+    max-width: 236px;
+  }
+}

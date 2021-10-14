@@ -1,0 +1,92 @@
+.contactContainer {
+  width: 980px;
+  margin: 0 auto;
+  padding-top: 125px;
+
+  h1 {
+    width: 120px;
+    font-size: 30px;
+    font-family: ProximaCondensed;
+    border-bottom: solid 1px black;
+    margin-bottom: 40px;
+  }
+
+  .contactForm {
+    display: flex;
+    justify-content: space-between;
+
+    .map {
+      width: 400px;
+      margin-bottom: 50px;
+
+      img {
+        width: 400px;
+        height: 442px;
+        margin-bottom: 34px;
+      }
+
+      .directions {
+        margin: 0;
+        font-size: 18px;
+        font-family: GillSans;
+      }
+    }
+
+    .form {
+      .textInput {
+        width: 529px;
+        margin-bottom: 20px;
+
+        input {
+          width: 529px;
+          height: 60px;
+          color: #707070;
+          background-color: #f5f5f5;
+          border: none;
+          padding: 20px;
+        }
+      }
+
+      .messageInput {
+        width: 529px;
+        margin-bottom: 20px;
+
+        input {
+          width: 529px;
+          height: 200px;
+          color: #707070;
+          background-color: #f5f5f5;
+          border: none;
+          padding: 20px;
+        }
+      }
+
+      .subBtn {
+        width: 168px;
+        height: 60px;
+        background-color: #79addc;
+        text-align: center;
+        font-size: 16px;
+        font-family: GillSans;
+        padding: 20px;
+        color: white;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .contactContainer {
+    margin: 0 50px;
+
+    .contactForm {
+      flex-direction: column;
+
+      .form {
+        .subBtn {
+          margin-bottom: 50px;
+        }
+      }
+    }
+  }
+}
